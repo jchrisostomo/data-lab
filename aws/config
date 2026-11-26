@@ -1,0 +1,7 @@
+# Configuração da AWS CLI usada só por este repositório (via AWS_CONFIG_FILE no .env).
+# Não depende nem altera o ~/.aws/config global.
+[default]
+region = us-east-1
+output = json
+s3 =
+    addressing_style = path
